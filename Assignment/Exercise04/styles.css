@@ -28,7 +28,7 @@ body {
 .mainText{
     font-size:18px;
     color:#353535;
-    width: 1000px;
+    width: 100%;
     margin:auto;
     text-align: center;
     font-family: "Jokerman";
@@ -36,7 +36,7 @@ body {
 .mainText01{
     font-size:12px;
     color:#353535;
-    width: 1000px;
+    width: 100%;
     margin:auto;
     text-align: center;
     font-family: "Century Schoolbook";
@@ -44,7 +44,7 @@ body {
 .subText{
     font-size:15px;
     color:#353535;
-    width: 1680px;
+    width: 100%;
     text-align: left;
     font-family: "Century Schoolbook";
   }
