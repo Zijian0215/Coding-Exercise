@@ -13,16 +13,16 @@ body {
 .left{
     background: #b57b6a;
     height: 60%;
-    width: 40%;
+    width: 80%;
     margin: 20px;
-    padding: 20PX;
+    padding: 30PX;
 }
 .right{
     background: #646e66;
     height:60%;
     width:40%;
     margin: 20px;
-    padding: 20PX;
+    padding: 30PX;
 }
 .mainText{
     font-size:18px;
