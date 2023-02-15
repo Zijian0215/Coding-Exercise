@@ -7,8 +7,8 @@ body {
     flex-direction:row;
     align-items:flex-start;
     position: relative;
-    top: 100px;
-    width: 1500px;
+    top: 10px;
+    width: 1800px;
 }
 .left{
     background: #b57b6a;
@@ -22,7 +22,7 @@ body {
     height:60%;
     width:40%;
     margin: 20px;
-    padding: 30PX;
+    padding: 20PX;
 }
 
 .mainText{
