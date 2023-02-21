@@ -10,6 +10,14 @@ body {
     top: 10px;
     width: 1800px;
 }
+
+.image{
+    height: 60%;
+    width: 80%;
+    margin: 20px;
+    padding: 80PX;
+}
+
 .left{
     background: #b57b6a;
     height: 60%;
