@@ -1,0 +1,49 @@
+body {
+    background-color:#FBEEE6;}
+
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:flex-start;
+    position: relative;
+    top: 10px;
+    width: 1800px;
+}
+.left{
+    background: #b57b6a;
+    height: 60%;
+    width: 80%;
+    margin: 20px;
+    padding: 30PX;
+}
+.right{
+    background: #646e66;
+    height:60%;
+    width:40%;
+    margin: 20px;
+    padding: 30PX;
+}
+.mainText{
+    font-size:18px;
+    color:#353535;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    font-family: "Jokerman";
+  }
+.mainText01{
+    font-size:12px;
+    color:#353535;
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    font-family: "Century Schoolbook";
+  }
+.subText{
+    font-size:15px;
+    color:white;
+    width: 100%;
+    text-align: left;
+    font-family: "Century Schoolbook";
+  }
