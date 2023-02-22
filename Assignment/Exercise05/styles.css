@@ -1,6 +1,12 @@
 body {
     background-color:#FBEEE6;}
 
+    .header, nav {
+        background-color: #b57b6a;
+    }
+
+  
+
     .flex-container {
         display: flex;
         flex-direction: column;
