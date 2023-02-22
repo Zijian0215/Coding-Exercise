@@ -1,6 +1,6 @@
 body {
-    background-color:#FBEEE6;}
-
+    background-color:#FBEEE6;
+}
 .header, nav {
     background-color: #b57b6a;
 }
@@ -10,9 +10,6 @@ body {
     height: 100%;
 }
     
-.header, footer {
-    line-height: 60px;
-}
 
 
 
