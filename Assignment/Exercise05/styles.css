@@ -1,7 +1,19 @@
 body {
     background-color:#FBEEE6;}
 
-.container{
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    header, footer {
+        line-height: 60px;
+    }
+
+
+
+    .container{
     display: flex;
     justify-content:center;
     flex-direction:row;
@@ -11,11 +23,17 @@ body {
     width: 1800px;
 }
 
-.image{
-    height: 60%;
-    width: 80%;
-    margin: 20px;
-    padding: 80PX;
+.image-container{
+    height: 2000px;
+    width: 1000px;  
+    object-fit: cover;
+}
+.image-style {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
 }
 
 .left{
