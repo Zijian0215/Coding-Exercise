@@ -40,19 +40,13 @@ main, body, footer {
     font-family: "Century Schoolbook";
 }
 
-
-
-
-
-  
-
-
-
-
-
-
-
-
+.subText{
+    font-size:15px;
+    color:white;
+    width: 100%;
+    text-align: left;
+    font-family: "Century Schoolbook";
+}
 
 .container{
     display: flex;
@@ -61,31 +55,19 @@ main, body, footer {
     align-items:flex-start;
     position: relative;
     top: 10px;
-    width: 1800px;
+    width: 100%;
 }
-
-
-
 
 .left{
     background: #b57b6a;
-    height: 60%;
-    width: 80%;
-    margin: 20px;
-    padding: 30PX;
-}
-.right{
-    background: #646e66;
-    height:60%;
-    width:40%;
-    margin: 20px;
+    height: 100%;
+    width: 60%;
     padding: 30PX;
 }
 
-.subText{
-    font-size:15px;
-    color:white;
-    width: 100%;
-    text-align: left;
-    font-family: "Century Schoolbook";
-  }
+.right{
+    background: #646e66;
+    height:100%;
+    width:70%;
+    padding: 30PX;
+}
