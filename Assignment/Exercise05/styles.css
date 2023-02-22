@@ -1,35 +1,18 @@
 body {
     background-color:#FBEEE6;}
 
-    .header, nav {
-        background-color: #b57b6a;
-    }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
+.header, nav {
+    background-color: #b57b6a;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
     
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-    
-    header, footer {
-        line-height: 60px;
- 
- 
-    }
+.header, footer {
+    line-height: 60px;
+}
 
 
 
