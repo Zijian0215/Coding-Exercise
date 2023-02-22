@@ -12,6 +12,20 @@ body {
     height: 100%;
 }
 
+.image-container{
+    height: 2000px;
+    width: 1000px;  
+    object-fit: cover;
+}
+
+.image-style {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+}
+
 .mainText{
     font-size:18px;
     color:#353535;
@@ -32,6 +46,10 @@ body {
 
 
 
+
+
+
+
   .container{
     display: flex;
     justify-content:center;
@@ -43,18 +61,7 @@ body {
 }
 
 
-.image-container{
-    height: 2000px;
-    width: 1000px;  
-    object-fit: cover;
-}
-.image-style {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    background-position: center center;
-    background-size: cover;
-}
+
 
 .left{
     background: #b57b6a;
