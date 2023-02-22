@@ -2,6 +2,10 @@ body {
     background-color:#FBEEE6;
 }
 
+main, body, footer {
+    padding: 20px;
+}
+
 .header, nav {
     background-color: #b57b6a;
 }
