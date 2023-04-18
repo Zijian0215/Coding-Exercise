@@ -72,3 +72,8 @@ h2{
     border-bottom: grey;
     border-radius: 1px;
 }
+
+.container2 {
+    height: 100%;
+    padding: 60px;
+}
