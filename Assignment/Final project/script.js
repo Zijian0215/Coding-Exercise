@@ -3,9 +3,9 @@ const images=document.querySelectorAll ('.images img');
 
 buttons.forEach(button=> {
     button.addEventListener('click',() => {
-        const color = button.dataset.color;
+        const city = button.dataset.city;
         images. forEach(image=> {
-            if (image.getAttribute('data-color')===color) {
+            if (image.getAttribute('data-city')===city) {
                 image.style.display = 'block';
             } else {
                 image.style.display='none'
