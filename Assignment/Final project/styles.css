@@ -197,7 +197,66 @@ p1 {
 
 
 
+.container3 {
+    width:1550px;
+    height:300px;
+    overflow:hidden;
+    position:relative;
+    margin-left:38px;
+    border:1px solid #828282;
+}
 
+.row {
+    display:flex;
+    position: absolute;
+    top:0;
+    left:50%;
+    height:100%;
+}
+
+.left-to-right {
+    animation: scroll-left 2s linear infinite;
+}
+
+.right-to-left {
+    animation: scroll-right 2s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.top-row {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
+.bottom-row {
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+}
+
+.row img {
+    width:150px;
+    height:150px;
+    float:left;
+}
 
 .container2 {
     display: flex;

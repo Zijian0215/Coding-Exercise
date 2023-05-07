@@ -1,11 +1,15 @@
+const containers=document.querySelectorAll ('.container2');
+
+containers.forEach(container=> {
 const buttons=document.querySelectorAll('.filter-button');
 const images=document.querySelectorAll ('.images img');
 
 buttons.forEach(button=> {
     button.addEventListener('click',() => {
-        const city = button.dataset.city;
+        const filter = button.dataset.filter;
+     
         images. forEach(image=> {
-            if (image.getAttribute('data-city')===city) {
+            if (image.getAttribute('data-city')===filter || image.getAttribute('data-country')===filter) {
                 image.style.display = 'block';
             } else {
                 image.style.display='none'
@@ -13,7 +17,7 @@ buttons.forEach(button=> {
         });
     });
 });
-
+})
 
 images. forEach(image=> {
     image. addEventListener('click',() => {
