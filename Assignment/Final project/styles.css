@@ -178,3 +178,49 @@ p1 {
     font-family: "Century Schoolbook";
 }
 
+
+
+.image-grid {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    width:80%;
+}
+
+
+
+.container2 {
+    display: flex;
+    height:100vh;
+}
+
+.filter2 {
+    width: 10%;
+    padding: 10px;
+    background-color:#6a6a6a;
+    Margin-left: -50px;
+}
+
+.filter-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color:#353535;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    font-size:16px;
+}
+
+.images {
+    width:90%;
+    display:flex;
+    flex-wrap:wrap;
+    Margin-left: 30px;
+}
+
+.images img {
+    width:15%;
+    margin:10px;
+    border:3px solid #ccc;
+    border-radius:2px;
+}
