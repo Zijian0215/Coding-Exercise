@@ -39,15 +39,24 @@ ul {
     list-style-type: none;
 }
 
+
+
+
+
+
+
 header {
     padding: 100px;
     border: 1px solid #353535;
     color: #141414;
+    background-image: url('https://res.cloudinary.com/dgckvhya3/image/upload/t_Grayscale/v1683427791/001_mlnunj.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 
 h1{
     font-size:40px;
-    color:#353535;
+    color:#ffffff;
     width: 100%;
     margin:auto;
     text-align: center;
@@ -56,12 +65,17 @@ h1{
 
 h2{
     font-size:20px;
-    color:#6a6a6a;
+    color:#ffffff;
     width: 100%;
     margin:auto;
     text-align: center;
     font-family: "Century Schoolbook";
 }
+
+
+
+
+
 
 h6{
     font-size:20px;
@@ -224,12 +238,12 @@ p1 {
 }
 
 .left-to-right {
-    animation: scroll-left 36s linear infinite;
+    animation: scroll-left 45s linear infinite;
     animation-iteration-count: infinite;
 }
 
 .right-to-left {
-    animation: scroll-right 36s linear infinite;
+    animation: scroll-right 45s linear infinite;
     animation-iteration-count: infinite;
 }
 

@@ -1,6 +1,3 @@
-const containers=document.querySelectorAll ('.container2');
-
-containers.forEach(container=> {
 const buttons=document.querySelectorAll('.filter-button');
 const images=document.querySelectorAll ('.images img');
 
@@ -17,7 +14,6 @@ buttons.forEach(button=> {
         });
     });
 });
-})
 
 images. forEach(image=> {
     image. addEventListener('click',() => {
