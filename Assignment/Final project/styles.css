@@ -198,8 +198,9 @@ p1 {
 
 
 .container3 {
+    top: 10px;
     width:1550px;
-    height:300px;
+    height:240px;
     overflow:hidden;
     position:relative;
     margin-left:38px;
@@ -210,16 +211,18 @@ p1 {
     display:flex;
     position: absolute;
     top:0;
-    left:50%;
+    left: 0;
     height:100%;
 }
 
 .left-to-right {
-    animation: scroll-left 2s linear infinite;
+    animation: scroll-left 16s linear infinite;
+    animation-iteration-count: infinite;
 }
 
 .right-to-left {
-    animation: scroll-right 2s linear infinite;
+    animation: scroll-right 16s linear infinite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes scroll-left {
@@ -233,30 +236,19 @@ p1 {
 
 @keyframes scroll-right {
     0% {
-        transform: translateX(0%);
+        transform: translateX(-100%);
     }
     100% {
         transform: translateX(100%);
     }
 }
 
-.top-row {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-}
-
-.bottom-row {
-    display:flex;
-    flex-direction:row-reverse;
-    justify-content: flex-end;
-}
-
 .row img {
-    width:150px;
-    height:150px;
+    width:240px;
+    height:240px;
     float:left;
 }
+
 
 .container2 {
     display: flex;
