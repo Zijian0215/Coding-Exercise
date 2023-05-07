@@ -224,12 +224,12 @@ p1 {
 }
 
 .left-to-right {
-    animation: scroll-left 16s linear infinite;
+    animation: scroll-left 36s linear infinite;
     animation-iteration-count: infinite;
 }
 
 .right-to-left {
-    animation: scroll-right 16s linear infinite;
+    animation: scroll-right 36s linear infinite;
     animation-iteration-count: infinite;
 }
 
