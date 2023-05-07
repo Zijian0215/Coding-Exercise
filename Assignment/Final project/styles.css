@@ -207,16 +207,17 @@ p1 {
 .filter2 {
     width: 10%;
     padding: 10px;
-    background-color:#6a6a6a;
+    background-color: rgb(207, 215, 203);
     Margin-left: -20px;
+    border:1px solid #828282;
 }
 
 .filter-button {
     display: block;
     margin-bottom: 10px;
     padding: 5px 10px;
-    background-color:#c58282;
-    border:1px solid #ccc;
+    background-color:#e3dacd;
+    border:1px solid #828282;
     border-radius: 5px;
     font-size:16px;
 }
@@ -239,12 +240,12 @@ p1 {
 }
 
 .images img:hover {
-   transform: scale(1.1);
+   transform: scale(1.2);
 }
 
 .tooltip {
     position: absolute;
-    background-color: black;
+    background-color: rgb(118, 137, 106);
     color:rgb(99, 74, 74);
     padding: 5px;
     font-size:2px;
@@ -253,10 +254,14 @@ p1 {
 
 .popup {
     position: fixed;
-    top:50%;
+    top: 50%;
     left:50%;
+    width:30%;
+    height:30%;
     transform: translate(-50%, -50%);
     padding:20px;
     background-color: white;
     border:1px solid black;
+    z-index:9999;
 }
+
