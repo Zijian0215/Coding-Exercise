@@ -2,48 +2,55 @@ body {
     background-color:#FBEEE6;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
 .container {
     height: 100%;
     padding: 30px;
 }
 
 .container0 {
-    height: 100%;
-    padding: 120px;
+    height: 300px;
+    padding: 20px;
     margin:auto;
     width: 80%;
     margin-top:30px;
+    background-color: rgb(207, 215, 203);
     margin-bottom:30px;
+    display:flex;
+    flex-direction:column;
 }
 
 .container07 {
     display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    overflow:hidden;
+    flex-direction:column;   
+    align-items: center;
 }
 
 .row{
     display:flex;
     justify-content:center;
-    margin-bottom:20px;
-}
-
-.col{
-    text-align:center;
     margin:0 10px;
 }
 
+.col{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:0 10px;
+    text-align: center;
+    
+}
+
+.col p{
+    margin:10px 0;
+    
+}
+
 .container07 img{
-    width:100px;
-    height:100px;
-    object-fit: cover;
+    width:200px;
+    height:200px;
+    position:absolute;
+    left: 200px;
+    top: 200px;
 }
 
 ul {
@@ -97,11 +104,6 @@ h2{
     font-family: "Century Schoolbook";
 }
 
-
-
-
-
-
 h6{
     font-size:20px;
     color:#353535;
@@ -112,13 +114,14 @@ h6{
     font-family: "Century Schoolbook";
 }
 
-h5{
-    font-size:12px;
-    color:#6a6a6a;
+a {
+    font-size:18px;
+    color:#353535;
     width: 100%;
     margin:auto;
     text-align: center;
     font-family: "Century Schoolbook";
+    text-decoration: none;
 }
 
 .button {
@@ -225,24 +228,6 @@ p1 {
     justify-content:flex-end;
     width:80%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container3 {
     top: 10px;
