@@ -1,0 +1,30 @@
+nav {
+    background-color: #003366;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .container a:hover {
+    background-color: #fff;
+    color: #003366;
+    border-radius: 10px;
+  }
+  

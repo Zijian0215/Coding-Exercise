@@ -1,0 +1,40 @@
+#redButton, #yellowButton, #greenButton, #blueButton, #blackButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#switcher li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+ 
+#redButton {
+    background-color: red;
+    
+}
+    
+ 
+#yellowButton {
+    background-color: yellow;
+    
+}
+    
+#greenButton {
+    background-color: green;
+    
+}
+    
+
+#blueButton {
+    background-color: blue;
+}
+    
+#blackButton {
+    background-color: black;
+}
+
